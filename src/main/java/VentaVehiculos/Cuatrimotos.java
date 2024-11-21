@@ -2,29 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Clase20241611;
+package VentaVehiculos;
 
 /**
  *
  * @author Carlitos Chávez.
  */
-public class Producto {
-    private String Color;
+public class Cuatrimotos {
     private String Marca;
     private String Modelo;
-    
-    public Producto(String Color, String Marca, String Modelo) {
-        this.Color = Color;
+
+    public Cuatrimotos(String Marca, String Modelo) {
         this.Marca = Marca;
         this.Modelo = Modelo;
-    }
-
-    public String getColor() {
-        return Color;
-    }
-
-    public void setColor(String Color) {
-        this.Color = Color;
     }
 
     public String getMarca() {
@@ -42,5 +32,5 @@ public class Producto {
     public void setModelo(String Modelo) {
         this.Modelo = Modelo;
     }
-     
+    
 }

@@ -61,7 +61,12 @@ public class frmTelevisor extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setText("Color:");
 
-        cboColor.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "NEGRO", "GRIS ", "BLACO" }));
+        cboColor.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "NEGRO", "GRIS ", "BLANCO" }));
+        cboColor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cboColorActionPerformed(evt);
+            }
+        });
 
         btnAceptar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnAceptar.setForeground(new java.awt.Color(0, 204, 0));
@@ -165,6 +170,10 @@ public class frmTelevisor extends javax.swing.JFrame {
             txtModelo.getText())
     );
     }//GEN-LAST:event_btnAceptarActionPerformed
+
+    private void cboColorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cboColorActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cboColorActionPerformed
 
     /**
      * @param args the command line arguments

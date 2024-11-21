@@ -2,21 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package P.O.O;
+package POO;
 
 /**
  *
  * @author Carlitos Chávez.
  */
-public class Gato extends Animal {
+public class Queqo extends Animal {
 
-    public Gato(String Pelo, String Boca, String Cola, String Ojo, Integer Pata) {
+    public Queqo(String Pelo, String Boca, String Cola, String Ojo, Integer Pata) {
         super(Pelo, Boca, Cola, Ojo, Pata);
     }
     
     @Override
     public void Sonido (){
-        System.out.println("El gato maulla.");
+        System.out.println("El queqo hace ruido.");
     }
-    
 }
